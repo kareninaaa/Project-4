@@ -54,7 +54,7 @@ a {
 /* lightbox */
 
 .lightboxOverlay {
-  opacity: 1;
+  opacity: .99;
 }
 
 .lb-nav a.lb-next {

@@ -1,6 +1,6 @@
 
     lightbox.option({
-    'maxHeight': 600,
+    'maxHeight': 500,
     'alwaysShowNavOnTouchDevices': true,
     'showImageNumberLabel': false,
     'disableScrolling': false
