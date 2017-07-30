@@ -1,37 +1,72 @@
 /* body */
-/*
+
 body {
   background-color: aliceblue;
 }
 
 .container {
   background-color: aliceblue;
-  max-width: 1500px;
+  max-width: 1400px;
   margin: 0 auto;
   margin: 0 auto;
 }
 
+.searchDiv {
+  margin: 0 auto;
+  width: 20%
+}
+
+#searchBar {
+  display: inline-block;
+  text-align: center;
+  padding: 2%;
+  margin: 0 auto;
+  width: 100%;
+  font-size: 20px;
+}
 
 /* images */
-/*
-#lightgallery {
+
+.gallery {
   text-align: center;
 }
 
-#lightgallery img {
-  margin: 0 auto;
-  padding: 2%;
+.gallery img {
+  margin: .25% auto;
+  padding: 1.5%;
+  width: 17%;
+  margin-right: .25%;
+  margin-left: .25%;
 }
 
-#lightgallery li {
-  display: inline-block;
+.gallery li {
+  display: inline;
   padding: 0%;
-  width: 20%;
   list-style-type: none;
+  
 }
 
 a {
   text-decoration: none;
+}
+
+/* lightbox */
+
+.lightboxOverlay {
+  opacity: 0.9;
+}
+
+.lb-nav a.lb-next {
+  opacity: 1;
+}
+
+.lb-nav a.lb-prev {
+  opacity: 1;
+}
+
+.lb-data .lb-caption {
+  font-size: 18px;
+
 }
 
 
