@@ -3,7 +3,7 @@
     'maxHeight': 600,
     'alwaysShowNavOnTouchDevices': true,
     'showImageNumberLabel': false,
-    'disableScrolling': true
+    'disableScrolling': false
     });
 
 
