@@ -1,15 +1,10 @@
 
     lightbox.option({
-    'maxHeight': 800,
+    'maxHeight': 600,
     'alwaysShowNavOnTouchDevices': true,
-    'showImageNumberLabel': false
+    'showImageNumberLabel': false,
+    'disableScrolling': true
     });
-
-
-
-
-
-
 
 
 
@@ -22,7 +17,7 @@ $(function() {
       
       var text = $(this).find('a').attr('data-title'); /* var holding data-title attribute */
       
-      if(text.includes(search)) { /* checks if searched word is indluded in any data-title text */
+      if(text.includes(search)) { /* checks if searched word is included in any data-title text */
         $(this).show();
 
       } else {
